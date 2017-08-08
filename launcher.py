@@ -5,6 +5,9 @@ import webbrowser
 def launch(*args):
     """Launches the Yahoo Finanace pages for the tickers specified by *args.
 
+    If no browser windows are open, all tabs will open in separate windows,
+    which is probably not what you want.
+
     Arguments:
     *args -- A variable-length iterable of tickers.
     """
