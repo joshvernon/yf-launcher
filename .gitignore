@@ -101,4 +101,4 @@ ENV/
 .mypy_cache/
 
 # Project-specific ignores
-local_launchcer.py
+local_launcher.py
